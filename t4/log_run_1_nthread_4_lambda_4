@@ -1,0 +1,47 @@
+04:40:08.832 INFO  (/mplambda/src/mpl_lambda_pseudo.cpp:5) Hello
+04:40:08.832 INFO  (/mplambda/src/mpl_lambda_pseudo.cpp:5) Hello
+04:40:08.832 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:295) using planner: cforest
+04:40:08.832 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:295) using planner: cforest
+04:40:08.832 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:289) using precision: double
+04:40:08.832 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:289) using precision: double
+04:40:08.832 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:250) running scenario: fetch
+04:40:08.832 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:250) running scenario: fetch
+04:40:08.832 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:269) Env frame: 
+	-4.37114e-08 1            0            0.38        
+	-1           -4.37114e-08 -0           -0.9        
+	-0           0            1            0           
+	0            0            0            1           
+04:40:08.832 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:269) Env frame: 
+	-4.37114e-08 1            0            0.38        
+	-1           -4.37114e-08 -0           -0.9        
+	-0           0            1            0           
+	0            0            0            1           
+04:40:08.832 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:270) Goal: 
+	1     0     0     -1.07
+	0     1     0     0.16 
+	0     0     1     0.88 
+	0     0     0     1    
+04:40:08.832 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:270) Goal: 
+	1     0     0     -1.07
+	0     1     0     0.16 
+	0     0     1     0.88 
+	0     0     0     1    
+04:40:08.832 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:272) Goal in robot's frame: 
+	-4.37114e-08 1            0            0.54        
+	-1           -4.37114e-08 -0           0.17        
+	0            0            1            0.88        
+	0            0            0            1           
+04:40:08.832 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:272) Goal in robot's frame: 
+	-4.37114e-08 1            0            0.54        
+	-1           -4.37114e-08 -0           0.17        
+	0            0            1            0.88        
+	0            0            0            1           
+04:40:08.833 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:90) Start function runplanner
+04:40:08.833 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:90) Start function runplanner
+04:40:08.833 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:106) before kvsClient
+thread id is 4
+anna address is 127.0.0.1
+local ip is 127.0.0.1
+execution id is solution_key_1595284680.778267
+04:40:08.833 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:106) before kvsClient
+Error: Address already in use
