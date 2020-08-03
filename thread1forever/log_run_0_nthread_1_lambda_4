@@ -1,0 +1,138 @@
+20:44:06.155 INFO  (/mplambda/src/mpl_lambda_pseudo.cpp:5) Hello
+20:44:06.155 INFO  (/mplambda/src/mpl_lambda_pseudo.cpp:5) Hello
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:295) using planner: cforest
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:295) using planner: cforest
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:289) using precision: double
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:289) using precision: double
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:250) running scenario: fetch
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:250) running scenario: fetch
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:269) Env frame: 
+	-4.37114e-08 1            0            0.38        
+	-1           -4.37114e-08 -0           -0.9        
+	-0           0            1            0           
+	0            0            0            1           
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:269) Env frame: 
+	-4.37114e-08 1            0            0.38        
+	-1           -4.37114e-08 -0           -0.9        
+	-0           0            1            0           
+	0            0            0            1           
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:270) Goal: 
+	1     0     0     -1.07
+	0     1     0     0.16 
+	0     0     1     0.88 
+	0     0     0     1    
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:270) Goal: 
+	1     0     0     -1.07
+	0     1     0     0.16 
+	0     0     1     0.88 
+	0     0     0     1    
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:272) Goal in robot's frame: 
+	-4.37114e-08 1            0            0.54        
+	-1           -4.37114e-08 -0           0.17        
+	0            0            1            0.88        
+	0            0            0            1           
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:272) Goal in robot's frame: 
+	-4.37114e-08 1            0            0.54        
+	-1           -4.37114e-08 -0           0.17        
+	0            0            1            0.88        
+	0            0            0            1           
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:90) Start function runplanner
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:90) Start function runplanner
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:106) before kvsClient
+thread id is 4
+anna address is 127.0.0.1
+local ip is 127.0.0.1
+execution id is solution_key_1595284680.778267
+20:44:06.155 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:106) before kvsClient
+20:44:06.156 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:108) After kvsclient
+20:44:06.156 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:108) After kvsclient
+20:44:06.156 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:111) no coordinator set
+20:44:06.156 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:111) no coordinator set
+20:44:06.156 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:114) setting up planner
+20:44:06.156 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:114) setting up planner
+20:44:06.158 INFO  (/mplambda/include/mpl/demo/load_mesh.hpp:59) name='$MergedNode_0', M=[1, 0, 0, 0,  0, 1, 0, 0,  0, 0, 1, 0,  0, 0, 0, 1]
+20:44:06.158 INFO  (/mplambda/include/mpl/demo/load_mesh.hpp:59) name='$MergedNode_0', M=[1, 0, 0, 0,  0, 1, 0, 0,  0, 0, 1, 0,  0, 0, 0, 1]
+20:44:06.171 INFO  (/mplambda/include/mpl/demo/load_mesh.hpp:286) Loaded mesh "/mplambda/resources/AUTOLAB.dae" AABB={c=[0.215000033378601, -1.4600000679493, 1.19999999925494]^T, r=4.16991, min=[-3.09999990463257, -3.63000011444092, -0.100000001490116]^T, max=[3.52999997138977, 0.709999978542328, 2.5]^T}
+20:44:06.171 INFO  (/mplambda/include/mpl/demo/load_mesh.hpp:286) Loaded mesh "/mplambda/resources/AUTOLAB.dae" AABB={c=[0.215000033378601, -1.4600000679493, 1.19999999925494]^T, r=4.16991, min=[-3.09999990463257, -3.63000011444092, -0.100000001490116]^T, max=[3.52999997138977, 0.709999978542328, 2.5]^T}
+20:44:06.171 INFO  (/mplambda/include/mpl/demo/fetch_scenario.hpp:62) goal tolerance: eps=0.01, L=[1, 1, 1, 1, 1, 0.00318309870211231]^T
+20:44:06.171 INFO  (/mplambda/include/mpl/demo/fetch_scenario.hpp:62) goal tolerance: eps=0.01, L=[1, 1, 1, 1, 1, 0.00318309870211231]^T
+20:44:06.172 TRACE (/mplambda/include/mpl/pcforest.hpp:471) thread goal bias set to 0.01
+20:44:06.172 TRACE (/mplambda/include/mpl/pcforest.hpp:471) thread goal bias set to 0.01
+20:44:06.172 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:117) Adding start state: [0.100000001490116, 1.57079637050629, 1.57079637050629, 0, 1.57079637050629, 0, 1.57079637050629, 0]^T
+20:44:06.172 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:117) Adding start state: [0.100000001490116, 1.57079637050629, 1.57079637050629, 0, 1.57079637050629, 0, 1.57079637050629, 0]^T
+20:44:06.172 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:120) Starting solve()
+20:44:06.172 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:120) Starting solve()
+20:44:06.172 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:131) judge whether found a solution
+20:44:06.172 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:131) judge whether found a solution
+20:44:06.172 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:134) found a solution
+20:44:06.172 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:134) found a solution
+20:44:06.172 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:137) Sync solution keysolution_key_1595284680.778267
+20:44:06.172 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:137) Sync solution keysolution_key_1595284680.778267
+20:44:06.172 INFO  (/mplambda/include/mpl/pcforest.hpp:225) solving on 1 threads
+20:44:06.172 INFO  (/mplambda/include/mpl/pcforest.hpp:225) solving on 1 threads
+20:55:32.976 INFO  (/mplambda/include/mpl/pcforest.hpp:125) found initial solution with cost 76.5496
+20:55:32.976 INFO  (/mplambda/include/mpl/pcforest.hpp:125) found initial solution with cost 76.5496
+20:55:32.976 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:59) putting path with cost 76.5496
+20:55:32.976 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:59) putting path with cost 76.5496
+20:55:32.976 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:204) solution length = 76.5496
+20:55:32.976 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:204) solution length = 76.5496
+20:55:32.976 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:205) Get solution with cost 76.5496,686.803790436 s
+20:55:32.976 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:205) Get solution with cost 76.5496,686.803790436 s
+20:55:49.085 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 71.3418
+20:55:49.085 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 71.3418
+20:55:49.086 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 68.2866
+20:55:49.086 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 68.2866
+20:55:49.087 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:59) putting path with cost 68.2866
+20:55:49.087 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:59) putting path with cost 68.2866
+20:55:49.087 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:204) solution length = 68.2866
+20:55:49.087 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:204) solution length = 68.2866
+20:55:49.087 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:205) Get solution with cost 68.2866,702.914751493 s
+20:55:49.087 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:205) Get solution with cost 68.2866,702.914751493 s
+20:56:05.728 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 67.4109
+20:56:05.728 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 67.4109
+21:02:03.581 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 66.7693
+21:02:03.581 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 66.7693
+21:02:06.326 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 64.1492
+21:02:06.326 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 64.1492
+21:06:22.943 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 63.2843
+21:06:22.943 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 63.2843
+21:06:24.629 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 62.9984
+21:06:24.629 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 62.9984
+21:06:24.927 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 59.702
+21:06:24.927 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 59.702
+21:06:24.927 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 57.3695
+21:06:24.927 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 57.3695
+21:06:25.255 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 55.3085
+21:06:25.255 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 55.3085
+21:19:44.926 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution goal reverted, new cost 48.2951
+21:19:44.926 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution goal reverted, new cost 48.2951
+21:38:49.335 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution goal reverted, new cost 42.8695
+21:38:49.335 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution goal reverted, new cost 42.8695
+21:38:49.359 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:59) putting path with cost 42.8695
+21:38:49.359 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:59) putting path with cost 42.8695
+21:38:49.359 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:204) solution length = 42.8695
+21:38:49.359 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:204) solution length = 42.8695
+21:38:49.359 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:205) Get solution with cost 42.8695,3283.186741733 s
+21:38:49.359 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:205) Get solution with cost 42.8695,3283.186741733 s
+22:31:06.346 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution goal reverted, new cost 33.6384
+22:31:06.346 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution goal reverted, new cost 33.6384
+00:21:48.985 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution goal reverted, new cost 29.6602
+00:21:48.985 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution goal reverted, new cost 29.6602
+05:04:08.575 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:232) solution found after 30002.403309946 s
+05:04:08.575 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:232) solution found after 30002.403309946 s
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:233) graph size = 66763
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:233) graph size = 66763
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:234) samples (goal-biased, rejected) = 234304 (791, 0)
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:234) samples (goal-biased, rejected) = 234304 (791, 0)
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:242)   [0.089043074956427, 1.38517301086392, 0.173729133143269, -1.73675880335536, 1.77792009904725, 6.70967822030514, 0.601238207462509, 1.22471326230274]^T
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:242)   [0.089043074956427, 1.38517301086392, 0.173729133143269, -1.73675880335536, 1.77792009904725, 6.70967822030514, 0.601238207462509, 1.22471326230274]^T
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:242)   [0.0929801910596595, 1.42220328882852, -0.146777207711217, -1.5481577282515, 2.01590495787736, 5.33552054720775, 0.181624230851547, 1.40874762102978]^T
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:242)   [0.0929801910596595, 1.42220328882852, -0.146777207711217, -1.5481577282515, 2.01590495787736, 5.33552054720775, 0.181624230851547, 1.40874762102978]^T
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:242)   [0.186231425777865, 1.4151301794122, 0.600276152726722, -2.56947188515401, 1.55989276137992, 5.30589155847576, 0.698901737964547, 1.04378283039247]^T
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:242)   [0.186231425777865, 1.4151301794122, 0.600276152726722, -2.56947188515401, 1.55989276137992, 5.30589155847576, 0.698901737964547, 1.04378283039247]^T
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:242)   [0.328065672273188, 1.434573128489, 0.183653243911469, -2.12691796371556, 2.08233336281518, 0.307636792933804, 0.676112706403156, 1.58560015457321]^T
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:242)   [0.328065672273188, 1.434573128489, 0.183653243911469, -2.12691796371556, 2.08233336281518, 0.307636792933804, 0.676112706403156, 1.58560015457321]^T
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:242)   [0.353528165696537, 1.54330746881489, 0.053480184547489, -1.58573181899233, 2.0523814620245, 0.642526137409021, 1.45534403873305, 1.19015789142142]^T
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:242)   [0.353528165696537, 1.54330746881489, 0.053480184547489, -1.58573181899233, 2.0523814620245, 0.642526137409021, 1.45534403873305, 1.19015789142142]^T
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:242)   [0.100000001490116, 1.57079637050629, 1.57079637050629, 0, 1.57079637050629, 0, 1.57079637050629, 0]^T
+05:04:08.576 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:242)   [0.100000001490116, 1.57079637050629, 1.57079637050629, 0, 1.57079637050629, 0, 1.57079637050629, 0]^T
