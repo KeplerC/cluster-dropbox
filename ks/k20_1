@@ -1,0 +1,221 @@
+Traceback (most recent call last):
+  File "debug_mpanna.py", line 9, in <module>
+    dc = CloudburstConnection(function_elb, driver_node_ip) # function_elb, driver_node_ip
+  File "/home/ubuntu/hydro-project/cloudburst/cloudburst/client/client.py", line 71, in __init__
+    offset=tid + 10)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/anna/client.py", line 80, in __init__
+    self.response_puller.bind(self.ut.get_request_pull_bind_addr())
+  File "zmq/backend/cython/socket.pyx", line 550, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 26, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+alive
+T1
+[[ [<cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550550>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15505c0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15505f8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550630>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550668>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15506a0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15506d8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550710>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550748>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550780>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15507b8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15507f0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550828>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550860>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550898>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15508d0>, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None] ]]
+1
+object id is db34229f-4c44-48a1-9b26-99afcaa133ed
+2
+object id is 3c5cc6ee-0ef7-43cb-8db8-5b010828050a
+3
+object id is 3dcaef5b-be26-4d7d-b31b-e7bbe363d97f
+4
+object id is 4440f4ec-1f7c-4fbb-8084-a77810f0cad4
+5
+object id is 350482bc-0790-4b26-b492-a297bc72e3ca
+6
+object id is c372c2ca-57e3-4b1a-bd06-5b0af2a7fff3
+7
+object id is 2ef85525-f6ed-43c5-8039-94e01912fa07
+8
+object id is 1d290392-f686-4762-a7e0-52936f197543
+9
+object id is f02905ae-1a53-4cb8-90e1-5bbe2b0e3162
+10
+object id is 3cb32276-9803-415a-b723-2c6bafae2a6d
+11
+object id is 2773b2dc-7eac-4292-976c-36ad2dda8f4b
+12
+object id is 90918d19-6b2b-4aca-8f0a-c487d3a03a18
+13
+object id is 6d28f251-3c99-439c-a834-fbae2c84aa22
+14
+object id is 0425eb08-0724-4de8-8ddf-f6c492d2affc
+15
+object id is 65d518cf-0e1d-4051-8c55-402d4d9df985
+16
+object id is 69dcb419-8a26-4f30-897d-1fc9663a729f
+dc.kvs_client <anna.client.AnnaTcpClient object at 0x7f2ad866e7f0> ||
+&$ {'solution_key_1596741750.10587170.4138600651770883': <anna.lattices.TopKPriorityLattice object at 0x7f2ac15505c0>} &$
+heyyyy  dc.kvs_client.get(solution_key)[solution_key] is not None
+length of lattice payload =  <class 'sortedcontainers.sorteddict.SortedDict'> 1 -=-
+15.792764663696289, 106.6352559567524
+current topK: [98.83898635578636, 106.6352559567524]
+17.80705428123474, 98.83898635578636
+current topK: [83.81623607390661, 87.50485572606115, 92.58761968132863, 93.36672916293534, 93.80310456203883, 98.83898635578636, 100.66625133047476, 106.6352559567524]
+23.848838567733765, 83.81623607390661
+current topK: [74.65597768047397, 83.81623607390661, 87.50485572606115, 92.31080741783286, 92.58761968132863, 93.36672916293534, 93.80310456203883, 98.83898635578636, 100.66625133047476, 106.6352559567524]
+25.86318349838257, 74.65597768047397
+current topK: [64.08103877904799, 74.65597768047397, 83.81623607390661, 87.50485572606115, 92.31080741783286, 92.58761968132863, 93.36672916293534, 93.80310456203883, 98.83898635578636, 100.66625133047476, 106.6352559567524]
+27.8773353099823, 64.08103877904799
+current topK: [64.08103877904799, 74.65597768047397, 77.46949133194002, 83.81623607390661, 87.50485572606115, 88.41200925780524, 92.31080741783286, 92.58761968132863, 93.36672916293534, 93.80310456203883, 98.83898635578636, 100.66625133047476, 106.6352559567524]
+current topK: [60.85207019684235, 64.08103877904799, 74.65597768047397, 77.46949133194002, 83.81623607390661, 87.50485572606115, 88.41200925780524, 92.31080741783286, 92.58761968132863, 93.36672916293534, 93.80310456203883, 96.54378949453049, 98.83898635578636, 100.66625133047476, 106.6352559567524]
+37.94930171966553, 60.85207019684235
+current topK: [60.85207019684235, 64.08103877904799, 67.0858990586448, 74.65597768047397, 77.46949133194002, 78.88965130626595, 83.81623607390661, 87.50485572606115, 88.41200925780524, 92.31080741783286, 92.58761968132863, 93.36672916293534, 93.80310456203883, 96.54378949453049, 98.83898635578636, 100.66625133047476, 106.6352559567524]
+current topK: [60.85207019684235, 64.08103877904799, 67.0858990586448, 70.88303634193915, 74.65597768047397, 77.46949133194002, 78.88965130626595, 83.81623607390661, 87.50485572606115, 88.41200925780524, 92.31080741783286, 92.58761968132863, 93.36672916293534, 93.80310456203883, 96.54378949453049, 98.83898635578636, 100.66625133047476]
+current topK: [60.85207019684235, 64.08103877904799, 67.0858990586448, 70.88303634193915, 74.65597768047397, 77.46949133194002, 78.88965130626595, 83.81623607390661, 87.50485572606115, 88.41200925780524, 92.31080741783286, 92.58761968132863, 93.36672916293534, 93.80310456203883, 96.54378949453049, 98.83898635578636]
+current topK: [60.85207019684235, 64.08103877904799, 64.99168946438424, 67.0858990586448, 70.88303634193915, 74.65597768047397, 77.46949133194002, 78.88965130626595, 83.81623607390661, 87.50485572606115, 88.41200925780524, 92.31080741783286, 92.58761968132863, 93.36672916293534, 93.80310456203883, 96.54378949453049]
+current topK: [60.85207019684235, 64.08103877904799, 64.99168946438424, 67.0858990586448, 70.88303634193915, 74.65597768047397, 77.46949133194002, 78.88965130626595, 83.81623607390661, 87.50485572606115, 88.41200925780524, 92.31080741783286, 92.58761968132863, 93.36672916293534, 93.80310456203883]
+current topK: [57.76408239275726, 60.85207019684235, 64.08103877904799, 64.99168946438424, 67.0858990586448, 70.88303634193915, 74.65597768047397, 77.46949133194002, 78.88965130626595, 83.81623607390661, 87.50485572606115, 88.41200925780524, 92.31080741783286, 92.58761968132863, 93.36672916293534]
+60.10829830169678, 57.76408239275726
+current topK: [57.76408239275726, 60.85207019684235, 64.08103877904799, 64.99168946438424, 67.0858990586448, 70.88303634193915, 74.65597768047397, 77.46949133194002, 78.88965130626595, 83.81623607390661, 87.50485572606115, 88.41200925780524, 92.31080741783286, 92.58761968132863]
+current topK: [57.76408239275726, 60.85207019684235, 64.08103877904799, 64.99168946438424, 67.0858990586448, 70.88303634193915, 74.65597768047397, 77.46949133194002, 78.88965130626595, 83.81623607390661, 87.50485572606115, 88.41200925780524, 92.31080741783286]
+current topK: [57.76408239275726, 60.85207019684235, 64.08103877904799, 64.99168946438424, 67.0858990586448, 70.88303634193915, 74.65597768047397, 77.46949133194002, 78.88965130626595, 83.81623607390661, 87.50485572606115, 88.41200925780524]
+current topK: [57.56871361277116, 57.76408239275726, 60.85207019684235, 64.08103877904799, 64.99168946438424, 67.0858990586448, 70.88303634193915, 74.65597768047397, 77.46949133194002, 78.88965130626595, 83.81623607390661, 87.50485572606115]
+78.2370867729187, 57.56871361277116
+current topK: [57.56871361277116, 57.76408239275726, 60.85207019684235, 64.08103877904799, 64.99168946438424, 67.0858990586448, 70.88303634193915, 74.65597768047397, 77.46949133194002, 78.88965130626595, 83.81623607390661]
+current topK: [49.10729725723772, 57.56871361277116, 57.76408239275726, 60.85207019684235, 64.08103877904799, 64.99168946438424, 67.0858990586448, 70.88303634193915, 74.65597768047397, 77.46949133194002, 78.88965130626595]
+122.55251359939575, 49.10729725723772
+current topK: [44.74678045590829, 49.10729725723772, 57.56871361277116, 57.76408239275726, 60.85207019684235, 64.08103877904799, 64.99168946438424, 67.0858990586448, 70.88303634193915, 74.65597768047397, 77.46949133194002]
+150.75225853919983, 44.74678045590829
+current topK: [33.150923760983524, 44.74678045590829, 49.10729725723772, 57.56871361277116, 57.76408239275726, 60.85207019684235, 64.08103877904799, 64.99168946438424, 67.0858990586448, 70.88303634193915, 74.65597768047397]
+350.167777299881, 33.150923760983524
+current topK: [29.538997057243222, 33.150923760983524, 44.74678045590829, 49.10729725723772, 57.56871361277116, 57.76408239275726, 60.85207019684235, 64.08103877904799, 64.99168946438424, 67.0858990586448, 70.88303634193915]
+668.4052612781525, 29.538997057243222
+getting results
+printing waypoints
+2971340109 276 29.538997057243222 679100
+4.0
+[(0.10000000149011612, 1.5707963705062866, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0), (0.3659720875881648, 1.354266159599637, 1.513541735207054, -1.698414803533213, 2.2071532219647865, -0.8017102603621602, -0.348034532130427, 0.44012840804401065), (0.16239874934217502, 0.9861148966300974, 0.9910093275927419, -3.686410665695316, 1.9133515270089396, -1.049849475719233, -0.3181389524981022, 0.3125226948122286), (0.0655339196230304, 1.1963913859166173, -0.598960986903198, -0.9329399116679193, 1.644706042197943, -4.058554270449912, -1.1860610225704034, -0.9614028593142574)]
+alive
+T2
+[[ [<cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550940>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550908>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15505c0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15506d8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15505f8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550780>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550710>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15507b8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15507f0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550828>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550860>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550898>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550978>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15509b0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15509e8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550a20>, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None] ]]
+1
+object id is 4e80173a-0fa8-4023-b289-8eb31adc06be
+2
+object id is aec0220a-44b0-405b-bbdd-65fc6834fc15
+3
+object id is 561d6318-25de-48d1-8995-ae3772331966
+4
+object id is f3a2d572-67f4-4e6a-a00c-906e1ae5f587
+5
+object id is 625abb72-6e24-4bd6-8a6e-d58d62ad70e7
+6
+object id is 33d27a97-f607-401a-9c08-cc319921b42e
+7
+object id is 90b99ed6-ea1d-4fe5-b506-cea0b0f23d7f
+8
+object id is c28ae122-9491-4ee0-b1e8-2d4423077c64
+9
+object id is 5eb1ea57-e554-4634-a1ca-a865e73ddd52
+10
+object id is 2f721652-9932-4423-92a2-c035a5ab12dc
+11
+object id is 5bae5fef-097a-49c3-9ff5-357f4c6ba6b0
+12
+object id is d60771fb-0501-46f6-8f44-a97f4cf2f0ac
+13
+object id is dccad977-f1de-431d-b451-f8c68bd2fab2
+14
+object id is 4132d949-4a34-4ed6-a4e8-088aea8b86d4
+15
+object id is c9d6a9f3-30b0-403d-896c-5ba1a735e622
+16
+object id is f34f9245-8632-4a46-ae19-0db4971256be
+heyyyy  dc.kvs_client.get(solution_key)[solution_key] is not None
+length of lattice payload =  <class 'sortedcontainers.sorteddict.SortedDict'> 1 -=-
+150.10294318199158, 101.86891816058898
+current topK: [101.86891816058898]
+current topK: [92.85171768395034, 101.86891816058898]
+160.1727695465088, 92.85171768395034
+current topK: [57.73427254471584, 92.85171768395034, 101.86891816058898]
+164.20079636573792, 57.73427254471584
+current topK: [57.73427254471584, 78.07023595473166, 92.85171768395034, 97.6083412725815, 101.86891816058898]
+current topK: [54.698382017381924, 57.73427254471584, 78.07023595473166, 89.26124758327111, 92.85171768395034, 97.6083412725815, 101.86891816058898]
+168.22885370254517, 54.698382017381924
+current topK: [54.698382017381924, 57.73427254471584, 75.20310678043757, 78.07023595473166, 89.26124758327111, 92.85171768395034, 97.6083412725815, 101.86891816058898]
+current topK: [54.698382017381924, 57.73427254471584, 75.20310678043757, 78.07023595473166, 89.26124758327111, 92.85171768395034, 97.6083412725815, 100.03001368004635, 101.86891816058898]
+current topK: [54.698382017381924, 57.73427254471584, 65.08126606218897, 75.20310678043757, 78.07023595473166, 89.26124758327111, 92.85171768395034, 97.6083412725815, 97.67619668921489, 100.03001368004635, 101.86891816058898]
+current topK: [54.698382017381924, 57.73427254471584, 65.08126606218897, 69.57892442606402, 75.20310678043757, 78.07023595473166, 89.26124758327111, 92.85171768395034, 97.6083412725815, 97.67619668921489, 100.03001368004635, 101.86891816058898]
+current topK: [51.20288676055991, 54.698382017381924, 57.73427254471584, 65.08126606218897, 69.57892442606402, 75.20310678043757, 78.07023595473166, 89.26124758327111, 92.85171768395034, 97.6083412725815, 97.67619668921489, 100.03001368004635, 101.86891816058898]
+192.39867043495178, 51.20288676055991
+current topK: [51.20288676055991, 54.698382017381924, 57.73427254471584, 65.08126606218897, 69.57892442606402, 75.20310678043757, 78.07023595473166, 89.26124758327111, 92.85171768395034, 97.6083412725815, 97.67619668921489, 100.03001368004635]
+current topK: [35.69283275881527, 51.20288676055991, 54.698382017381924, 57.73427254471584, 65.08126606218897, 69.57892442606402, 75.20310678043757, 78.07023595473166, 89.26124758327111, 92.85171768395034, 97.6083412725815, 97.67619668921489]
+303.17742443084717, 35.69283275881527
+current topK: [27.230492293975693, 35.69283275881527, 51.20288676055991, 54.698382017381924, 57.73427254471584, 65.08126606218897, 69.57892442606402, 75.20310678043757, 78.07023595473166, 89.26124758327111, 92.85171768395034, 97.6083412725815]
+921.522344827652, 27.230492293975693
+current topK: [24.82341119274822, 27.230492293975693, 35.69283275881527, 51.20288676055991, 54.698382017381924, 57.73427254471584, 65.08126606218897, 69.57892442606402, 75.20310678043757, 78.07023595473166, 89.26124758327111, 92.85171768395034]
+1173.2815091609955, 24.82341119274822
+getting results
+printing waypoints
+2971340109 276 24.82341119274822 1183241
+4.0
+[(0.10000000149011612, 1.5707963705062866, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0), (0.18081295277030485, 1.5742245070900434, -0.33374437873895013, -0.4253199460516406, 2.0128006846221216, -1.2338822097607824, 0.03861442181535457, 1.1731793850464545), (0.32288308084018036, 1.6049178386153589, -0.1534562288898922, 1.6415067948017459, -2.1868054107651025, -0.9893575898066356, 0.10222325574636137, 2.2658899712155165), (0.19701170703700938, 1.438643309188749, 0.176128214238179, 1.8173480111987321, -2.038409514977955, -2.178817204472553, -0.20910190458327263, 0.859300551727262)]
+alive
+T3
+[[ [<cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550a90>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550a58>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550668>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15505f8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550710>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550940>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15507b8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15506d8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550780>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550550>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15507f0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550828>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550860>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550898>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac1550978>, <cloudburst.shared.future.CloudburstFuture object at 0x7f2ac15509b0>, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None] ]]
+1
+object id is ca5ba705-16cd-4078-9d44-e01f8920011d
+2
+object id is 0472ce7c-bb0e-41cc-abe1-f5e21ccf648e
+3
+object id is 37aea7ea-e37a-4bc2-9411-2f73120e7459
+4
+object id is 7b71c118-fad3-4e87-adb0-8fe52f4766a0
+5
+object id is 7b2fa776-3d1f-4177-a074-5e7a6d6e6eec
+6
+object id is ea31b383-9675-44c2-bba0-fb554f8e95e2
+7
+object id is 3655ba6d-bfef-4d4d-8032-68ebc9630284
+8
+object id is e90a2b10-714e-409b-a61d-3c04b0b51b96
+9
+object id is 71e1569b-9623-4cd8-9588-bf2eb35201b7
+10
+object id is 5ee5d4a4-2bca-4c48-a4e7-de4fd481d45b
+11
+object id is a2aecc3a-9710-4f10-a8a6-208d37180c75
+12
+object id is f812690b-b432-436b-b2f5-192d4c997c7f
+13
+object id is 8bfff72a-f39b-4abd-aba7-f26c89969407
+14
+object id is f54f71b6-1f59-41b3-b7f0-773f89d5373e
+15
+object id is 90f14cfa-741e-4430-9458-62f73b7ecf5d
+16
+object id is 76073b5e-23de-4164-a8c9-411bd501b7a7
+dc.kvs_client <anna.client.AnnaTcpClient object at 0x7f2ad866e7f0> ||
+&$ {'solution_key_1596753778.45114540.37132693729224686': <anna.lattices.TopKPriorityLattice object at 0x7f2ac15505c0>} &$
+heyyyy  dc.kvs_client.get(solution_key)[solution_key] is not None
+length of lattice payload =  <class 'sortedcontainers.sorteddict.SortedDict'> 1 -=-
+7.196901082992554, 67.76761464666966
+current topK: [67.76761464666966]
+current topK: [48.674720732845884, 67.76761464666966]
+11.224888324737549, 48.674720732845884
+current topK: [42.64127958109671, 48.674720732845884, 67.76761464666966]
+15.252901077270508, 42.64127958109671
+current topK: [42.64127958109671, 48.674720732845884, 66.15932081279082, 67.76761464666966]
+current topK: [42.64127958109671, 48.674720732845884, 63.189546631868936, 66.15932081279082, 67.76761464666966]
+current topK: [34.331102695890095, 42.64127958109671, 48.674720732845884, 63.189546631868936, 66.15932081279082, 67.76761464666966]
+152.20543479919434, 34.331102695890095
+current topK: [34.29981450222173, 34.331102695890095, 42.64127958109671, 48.674720732845884, 63.189546631868936, 66.15932081279082, 67.76761464666966]
+335.4800112247467, 34.29981450222173
+getting results
+printing waypoints
+2971340109 276 34.29981450222173 346754
+4.0
+[(0.10000000149011612, 1.5707963705062866, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0), (0.24374113395682556, 0.4106351179658403, 1.2190902680495057, -1.5537883822054575, 2.225690847084088, -1.252776483202254, -1.2036820999160427, 3.544489782979312), (0.22885302567242377, 0.9497739957908222, 1.3733887993539953, -2.631377640850653, 2.0634166285556526, -3.027975541684931, -1.4919930717266636, 3.3365793064436833), (0.11676704765975243, 1.4421962591115407, 0.018527768721251812, -1.4983149082886174, 2.004221537966705, -3.970346004103765, -0.07452347806760719, 5.596811258876386)]
+alive
+T4
+^CTraceback (most recent call last):
+  File "debug_mpanna.py", line 84, in <module>
+    future_list.append(cloud_func(routing_elb, solution_key)) # routing_elb
+  File "/home/ubuntu/hydro-project/cloudburst/cloudburst/shared/function.py", line 31, in __call__
+    obj_id = self._conn.exec_func(self.name, args)
+  File "/home/ubuntu/hydro-project/cloudburst/cloudburst/client/client.py", line 319, in exec_func
+    r.ParseFromString(self.func_call_sock.recv())
+  File "zmq/backend/cython/socket.pyx", line 791, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 827, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 186, in zmq.backend.cython.socket._recv_copy
+  File "zmq/backend/cython/checkrc.pxd", line 13, in zmq.backend.cython.checkrc._check_rc
+KeyboardInterrupt
