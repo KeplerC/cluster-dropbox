@@ -12463,3 +12463,658 @@ heyyyy  dc.kvs_client.get(solution_key)[solution_key] is not None
 length of lattice payload =  <class 'sortedcontainers.sorteddict.SortedDict'> 5 -=-
 0.19735264778137207, 35.61869490856019
 current topK: [35.61869490856019, 37.744921173190605, 38.86645877803931, 42.95717944038929, 43.478149093975446]
+getting results
+printing waypoints
+2971340109 276 35.61869490856019 29047
+4.0
+[(0.10000000149011612, 1.5707963705062866, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0), (0.14476342580480223, 1.358860306224797, -0.7438970691779313, -0.4704205681656255, 2.2183097193694956, -0.8687938657415621, 0.04702952039238317, -2.296892929444409), (0.1318020318521847, 1.164221860130136, -0.5950606890537318, 0.7296908676791176, 1.0804653452302464, -0.6553414109812152, 0.7638858756045632, -6.290886440743875), (0.07454566089201035, 1.409696508903291, -0.03899511811522782, 7.811464497210689, -2.1946457868714178, -0.08419978776028127, 0.4783647346887457, -7.829188819583533)]
+alive
+T48
+[[ [<cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a5f8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a5c0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a550>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a630>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a668>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a710>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a748>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a780>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a7b8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a7f0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a828>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a860>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a898>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a8d0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a908>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a940>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a978>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a9b0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a9e8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aa20>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aa58>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aa90>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aac8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ab00>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ab38>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ab70>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aba8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27abe0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ac18>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ac50>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ac88>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27acc0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27acf8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ad30>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ad68>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ada0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27add8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ae10>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ae48>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ae80>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aeb8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aef0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27af28>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27af60>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27af98>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27afd0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2844e0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284518>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284668>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2845c0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284da0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2847b8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2846d8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284710>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2849e8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284828>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2848d0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284898>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284d68>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2847f0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284978>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284ac8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284c50>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2849b0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284908>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284940>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284d30>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284a90>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284be0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284ba8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284a20>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284a58>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284b00>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284cf8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284b70>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284c88>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284cc0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284c18>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284748>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284b38>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2840f0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2840b8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284080>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284048>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2842e8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284198>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284160>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284128>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284208>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2841d0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284358>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2842b0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284278>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284240>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284390>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284320>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284588>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284438>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284400>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2843c8>, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2844a8>, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284470>, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None] ]]
+1
+object id is f6ca1556-0fbb-48f3-a3d2-78d850583fe5
+2
+object id is bf40ecdb-ffe0-4f58-ab09-fd22ce101f5a
+3
+object id is d0af1474-2e83-4e89-a219-d6296e3ad4dc
+4
+object id is 9109b23e-5042-4ec4-907f-c0f8ea7870f6
+5
+object id is 0d4be5fd-f106-4b6f-8d46-f8f76b956fe4
+6
+object id is 20ad0220-893f-4724-9c0a-26304c003046
+7
+object id is 91e8a6f6-63ca-409c-af76-62f8e302c86e
+8
+object id is f1079e37-6854-4da4-bf26-ad6e4214932f
+9
+object id is 48dca3bd-bef3-47c0-9e1a-8cb978d21a80
+10
+object id is cd9cce1a-9181-4644-9809-8d67ccf8b57b
+11
+object id is 70d237e8-d16b-483d-bbe6-c65138b74188
+12
+object id is 560d0779-f7c9-40ab-8c26-c73596ff94a9
+13
+object id is 9fbca321-c785-4f03-b013-e764befa49e0
+14
+object id is 133ea3dd-288c-415c-9357-d2fdbce02066
+15
+object id is 1273638e-15b6-43de-b9ef-6bc04ce9fb52
+16
+object id is 291e088f-fa41-4f76-812a-50fe0d47b269
+17
+object id is 3ecc0584-ccbd-42c2-91bc-7517d23faa3d
+18
+object id is 2dd750e0-50cb-4232-b961-b4c283224698
+19
+object id is 40d8594c-bf74-473e-b718-2033790f4ca9
+20
+object id is 20f84724-40f5-4c89-99ef-a4be3bee69b5
+21
+object id is 0e13d6b3-43e8-4862-8c16-951d66d599d3
+22
+object id is 3e71b7ae-ab6e-4f56-9f77-2edc1401a4c2
+23
+object id is 0b37c4da-eded-4634-805a-8ac4b9dfec64
+24
+object id is 56a708d4-5d30-454d-abab-9d83bc892810
+25
+object id is 0bebea86-6104-4c07-bf91-ad01d0055e52
+26
+object id is bc8687f9-983d-44f7-a27d-e67c545f0253
+27
+object id is 2c4d75bc-8f4d-457f-bb6b-5d91f454188b
+28
+object id is db9bf716-1dfc-4982-a27e-fc771d15e170
+29
+object id is 305610a7-69b8-4395-8aef-9ff061f37140
+30
+object id is c11806c3-3294-4035-948e-2f5909d4e52b
+31
+object id is 21a21e4b-3e6d-499f-abe1-86b9adfb18ba
+32
+object id is 6ffa3097-fe18-43a3-b267-a206df2e6cae
+33
+object id is 35c8b930-5e7b-405d-99d8-a639c652fcfe
+34
+object id is 8aa3a984-23ae-4dc2-a571-581a61979c16
+35
+object id is f8268011-b6b3-4df8-b3a8-43993630f3f8
+36
+object id is 4b6f047e-1e01-4e32-a4c5-c453c200af22
+37
+object id is c4500dfb-417f-4390-a9ea-be0b44b64db4
+38
+object id is 5109165c-8627-400a-8f71-32502b3d8ac6
+39
+object id is d67e3f85-d991-4b66-9748-19566921d152
+40
+object id is 459d4aee-173e-4164-80b5-aa5ff6dbabbd
+41
+object id is 1b8f720e-0b4b-453e-a9d7-b3975135820b
+42
+object id is c6a8397e-f9d6-4abe-8a6b-1e3a839ae5fc
+43
+object id is c5c7de8d-3988-46c0-9d40-d7c26ffb39f5
+44
+object id is da48b4a0-72de-45ac-bd9c-fed5751dccc3
+45
+object id is 63609378-97a8-4619-b5e2-84db372d4e11
+46
+object id is b046e5fc-95e6-4902-bdd2-5e355817b78a
+47
+object id is 3848ce53-5794-4d0d-9fee-3cba8a223f21
+48
+object id is a03a9182-6c0e-4446-a1a2-192113295983
+49
+object id is 3172992f-455b-425e-a86d-504d11eafe98
+50
+object id is 50037916-24f1-44f1-935e-a3648a699d18
+51
+object id is d3750e30-8276-4149-b83f-ed1792b04846
+52
+object id is cbcbf58d-9e39-4463-90f7-b8931459f066
+53
+object id is 4fce0c4a-7536-48f9-a6bd-6efc370a4e53
+54
+object id is ac7dc6f8-3e99-46a2-9f2c-0db71838796c
+55
+object id is a6f650ac-69d9-4f2e-a3b2-e1db24a23d71
+56
+object id is a26319d8-f368-4c6e-9458-a432f6535e5b
+57
+object id is 9e3e3981-7652-4b4e-8651-5ac582c08516
+58
+object id is 662a70b9-dc0a-4d6d-a31d-f521964806fb
+59
+object id is eda1b193-319b-4f3f-99e0-d8300d35c671
+60
+object id is 1c6e34b7-0bbd-4dc6-8c8f-884c7eeaa831
+61
+object id is 062d5d3c-8393-439a-aeb7-4eb3accb342a
+62
+object id is 6ce17e7f-5fe6-4f1d-bc1c-fc9aa0f1be7e
+63
+object id is 2ff52c9f-9085-4d51-93fc-0991c930c716
+64
+object id is de697640-e969-425b-a050-35cab03cec9c
+65
+object id is 809458b2-4cc3-4034-a55f-40ed050704f2
+66
+object id is 42dc7e27-a95b-449a-ae9a-9e39b9a49f3c
+67
+object id is 11210e8a-dba7-4a9f-bbd8-13900ba7a6f4
+68
+object id is c18e0531-731b-4ec0-805b-00d33e1922cd
+69
+object id is ca6ad831-bee1-423c-b421-b8cc5d14dc63
+70
+object id is 491e4343-0eb6-410f-bbb4-f439a598c66f
+71
+object id is 778fff7f-2fcc-44fb-8e18-a397c0873544
+72
+object id is 93a649f3-4cae-423e-9e93-15737e839020
+73
+object id is 1f989386-e715-48db-a8d4-7c4fa175ff35
+74
+object id is 30cf8ee1-795f-42a7-bdbf-aedb6afd4ce3
+75
+object id is 07c07343-dac4-4423-b0ea-74fb60e031c7
+76
+object id is 71620db3-61c9-47cb-9258-34f3151da71d
+77
+object id is aa8e817d-b7b6-494c-9817-f028322c88d0
+78
+object id is 147ef99c-6295-47a0-ac49-70feb1e42f8c
+79
+object id is c605c650-0103-446f-9b19-4cdaeed12463
+80
+object id is de39a652-6517-4601-b8f2-609cd789c3d6
+81
+object id is 010f093d-ba69-4148-8e39-f391b0e60c24
+82
+object id is 43821af7-2a78-4eb4-84ad-6d076034b59d
+83
+object id is 5cb16a39-6fb8-41d9-a19f-40a679bc995a
+84
+object id is 73ec0561-eaef-4642-91d7-32cba14181d0
+85
+object id is 1049928d-3fd8-4d43-8959-fc615129a51d
+86
+object id is 335241c0-1575-4a40-8ae5-44f7ff121b18
+87
+object id is 584bb3c3-3deb-4a7e-95a0-8ad5d52cda93
+88
+object id is cd199199-2a05-4f61-9b0a-b91203d203dc
+89
+object id is f5f53c72-7b0f-4b91-8d85-9d3ea2be6163
+90
+object id is 404a87bd-2c53-4879-b9e5-c84ed5b210b4
+91
+object id is 8e551a34-3fbf-4d16-a655-637d5eb6aa92
+92
+object id is 8bbf9488-ab41-42a2-b6e8-46c5919ba358
+93
+object id is c4950dea-7aa8-41b6-bb0a-cf57f833924d
+94
+object id is 715c8bf0-407d-44ea-9a57-cd47506208d0
+95
+object id is 4fe2d606-8b4f-4b5b-a01e-46ec6ac649d3
+96
+object id is 76e63204-19ea-4e66-9292-0177764f999f
+97
+object id is 0d126931-7517-4670-8907-e8fb49f79a4c
+98
+object id is c4d0d554-5ee2-4c87-9068-cf103bd5ee00
+99
+object id is 382d6761-9611-4250-9235-b991d3a987e7
+100
+object id is 11d6cf76-a90b-4674-9ee4-e283c7a33781
+101
+object id is 8a07aec0-54e3-4a28-93f5-dbf625a7f8eb
+102
+object id is ffd96082-ac98-4fb8-aa10-96dea55be83b
+dc.kvs_client <anna.client.AnnaTcpClient object at 0x7f6162b6d780> ||
+&$ {'solution_key_1598399846.93287420.9098070423741681': <anna.lattices.TopKPriorityLattice object at 0x7f614c27a5c0>} &$
+heyyyy  dc.kvs_client.get(solution_key)[solution_key] is not None
+length of lattice payload =  <class 'sortedcontainers.sorteddict.SortedDict'> 3 -=-
+0.19588541984558105, 34.88011440927742
+current topK: [34.88011440927742, 35.39214553983024, 46.999044779352985]
+getting results
+printing waypoints
+2971340109 276 34.88011440927742 28103
+4.0
+[(0.10000000149011612, 1.5707963705062866, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0), (0.2789323001629129, 1.5063496171517774, 0.368129389220198, -0.5143690124875011, 1.197210562420394, 0.2204526325869196, 0.9225673830270016, -4.18689936338801), (0.1999103107983678, 0.8947227480952771, -0.4340662593438761, 3.7418934205476617, 1.6474035633802764, -7.934728922727194, 0.3505538696568662, -3.982474017164499), (0.0775077576745524, 1.225953024982683, -0.6392270582393714, 5.3736913202656, 1.781992842718735, -7.3886087235115445, 1.0412446010206375, -3.940000236749864)]
+alive
+T49
+[[ [<cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a4a8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a6d8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a5c0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a550>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a630>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a748>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a710>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a780>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a7b8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a7f0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a828>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a860>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a898>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a8d0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a908>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a940>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a978>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a9b0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a9e8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aa20>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aa58>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aa90>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aac8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ab00>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ab38>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ab70>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aba8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27abe0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ac18>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ac50>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ac88>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27acc0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27acf8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ad30>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ad68>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ada0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27add8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ae10>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ae48>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ae80>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aeb8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aef0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27af28>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27af60>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27af98>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27afd0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2846a0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2845f8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2844e0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284518>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284668>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2845c0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284da0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2847b8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2846d8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284710>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2849e8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284828>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2848d0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284898>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284d68>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2847f0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284978>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284ac8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284c50>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2849b0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284908>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284940>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284d30>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284a90>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284be0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284ba8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284a20>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284a58>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284b00>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284cf8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284b70>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284c88>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284cc0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284c18>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284748>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284b38>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2840f0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2840b8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284080>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284048>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2842e8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284198>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284160>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284128>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284208>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2841d0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284358>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2842b0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284278>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284240>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284390>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284320>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284588>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284438>, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284400>, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2843c8>, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None] ]]
+1
+object id is e259ab30-0aa8-4240-b1ef-cc8049634434
+2
+object id is 4b3e7bb1-5006-4ff2-bdd2-6b8bf134362c
+3
+object id is 7897f0af-4198-47c4-aa77-0f6874e8b2f5
+4
+object id is b90ae825-7598-4150-8b5a-dea892b1e8b1
+5
+object id is 2e1eecec-eb16-44e1-aa82-1a648f55f514
+6
+object id is 1e62e52e-0a64-49cc-93e8-214fcc27babe
+7
+object id is a2c195fa-002d-475e-9ddd-df0a7183bc35
+8
+object id is 2dfc71e8-697f-4071-bc89-830a9debdf7c
+9
+object id is da743641-a82a-4a12-87cc-13efb1709d6d
+10
+object id is f5ab8056-2340-4121-a049-fa85e470f97d
+11
+object id is a3aafc04-a8b3-4a7a-baf7-30fa9515ec4b
+12
+object id is d0fffc33-4222-4d78-a8b8-f87a4d5a56f3
+13
+object id is f588a321-2cfb-4d32-9b20-efd7b2423447
+14
+object id is 7cc43bf6-016a-4096-ac0e-047d88a6cdb9
+15
+object id is 88c16971-d636-4073-a8fe-a10dcf30c2e9
+16
+object id is cac5ab68-14fa-4142-8fb3-ab283d79716f
+17
+object id is f00904a8-8d59-46d4-a570-21c4ff646c55
+18
+object id is 693561bd-1ad5-4bba-b406-be81fdd1787f
+19
+object id is d1539008-a4cf-4097-9c44-7837968321a2
+20
+object id is 72e5a570-4010-4782-84ce-f4c4c1ea6fce
+21
+object id is 08f420fd-4fc7-4c37-89c9-b70fa6cb76b4
+22
+object id is 15392511-1fbd-41a6-a49f-8f8a1c948d2d
+23
+object id is 1d93188d-94f8-4974-a56d-e887df8b9f30
+24
+object id is 16aee23e-f017-4a3c-832f-e31ffa696476
+25
+object id is db4882f4-4d68-44f8-9362-3e77d5237ff8
+26
+object id is 9a1a2448-06e2-4e18-8ed1-54f38af0a239
+27
+object id is d21df689-5118-4cbc-bbf3-8b82a8e7a6d7
+28
+object id is ee139dda-0c32-4ba9-a64a-02e4a4a6465d
+29
+object id is aff7548a-4dae-4b33-bf67-c7957c827e36
+30
+object id is 25dc2f8d-dbac-4328-9042-d0f9edd288f0
+31
+object id is 2a9805e0-b135-4a80-ae1c-5a63c85f0aa3
+32
+object id is c1e83766-b993-4fc7-afd5-143708ca5e12
+33
+object id is 687a4288-7c6b-4270-8315-78286d34a6e0
+34
+object id is 6da4d46f-b07a-467e-a3b4-13c08a2a5671
+35
+object id is 728b92c5-8bee-4cb7-8f3e-101f5434efbe
+36
+object id is a874b758-1068-4945-920e-66854f0df5fa
+37
+object id is 6deabb9e-0eac-4029-b6c2-428ab41b3417
+38
+object id is 5563037f-16bb-44dc-8cc4-f818f68529db
+39
+object id is 536bb92a-0343-499c-b993-13948d61cffa
+40
+object id is 382aae78-7567-433d-913f-a3520bc24b22
+41
+object id is b680e995-ad43-42f1-92a7-e2a9c7df6a75
+42
+object id is 597dc343-0d2b-42b0-9b1e-e2d50b617c66
+43
+object id is e124d602-b52a-4cca-891f-526da2290a2e
+44
+object id is fec9e1cb-1396-4064-bea8-925cd8ef0b5b
+45
+object id is 729260ac-8867-479d-aabe-578a31d68884
+46
+object id is ffb319e8-07f9-4805-b4ee-f0242e9891a8
+47
+object id is 53021bef-d8dd-4982-a2ed-a9a28d8a766c
+48
+object id is f43a33d3-bb82-4a8b-b9c2-7ca1a4f40c3b
+49
+object id is d80edf14-dabd-41a0-ab1c-5401a8bbf527
+50
+object id is 9e27f62e-a44d-4d45-a68a-5208cb03018e
+51
+object id is 0d5dda29-1280-4050-80c0-8089de4c5949
+52
+object id is 518edd29-c3ae-4166-9fd6-e51b86538265
+53
+object id is 0ce5b174-25af-4147-a4fc-f142d67d7036
+54
+object id is 40f24563-20a3-432e-b888-ca0041d31dce
+55
+object id is 3987de33-18fb-4d51-a2ee-c59b42cbaf44
+56
+object id is 26c7f776-cb4e-4e42-a6c6-ba06d69b3d4a
+57
+object id is cc2c4547-5b7c-4297-a44a-d6555c30fe3f
+58
+object id is 4defeb69-32a7-455b-9b35-06e0b58447ea
+59
+object id is a2d60d3f-bbfd-46cb-8cd0-d893251a75a7
+60
+object id is 777195ba-c3f1-4725-8d45-8562f6f362ef
+61
+object id is d940457c-790c-4243-b602-8657161c5a22
+62
+object id is fff34b9e-77e2-4880-b563-3b2886cab16d
+63
+object id is 43607bb7-57b2-4eb6-bbbb-0c7a4b0f82ff
+64
+object id is 47ec9cb9-ac25-4a7d-9d0f-70695bcb5d74
+65
+object id is ee8b8244-8b53-4425-a88e-90606a62184a
+66
+object id is 4d91314b-7dd8-460d-9710-288ad7cdcf85
+67
+object id is add97935-1ab6-42bf-a2ea-47f511097ecf
+68
+object id is a15941e2-f7cb-4a22-842d-9440fbb9c0b6
+69
+object id is edfef094-efa9-46a6-a4f8-df08eed27aae
+70
+object id is ac7bb9bd-d2ee-41d0-99ad-1f64fbd23ce7
+71
+object id is 53002a5c-0bc8-4719-a290-3e2e573b4b6e
+72
+object id is 62a4da4b-1150-459f-b130-b7cd213f27ee
+73
+object id is 3d29a658-be5c-4d4c-867e-17e09b52904a
+74
+object id is ef443609-4643-455a-bfe2-497bbcb48930
+75
+object id is 6181817f-a4af-47be-9581-ff86737b7136
+76
+object id is 4190b949-cff3-44ad-b851-9232d53cb6a6
+77
+object id is 34a20a89-5d8e-4adc-89a6-8894a84e2f4b
+78
+object id is db95e203-eb4c-475d-b83f-45ff3cb8a828
+79
+object id is 85de5c93-bf99-41cf-af04-57b181aa4183
+80
+object id is 65b2334c-f2de-4b81-a9b6-26d911da711d
+81
+object id is 3092dfcf-b51b-4469-855c-0aa4c6c8d19b
+82
+object id is 9360eb3d-bb15-4566-baa9-dbed34ffe091
+83
+object id is 109878db-6994-497a-9b10-9b68bdc86584
+84
+object id is f3ff90a4-c2ce-4ff1-bd5a-b95846dbbcbb
+85
+object id is d4629f22-0750-45c3-b697-a9fcfecea817
+86
+object id is 75ad9530-0856-4826-a4c8-288fb98bd93d
+87
+object id is f20dce50-b5a1-4991-a8f5-20e8d6063c47
+88
+object id is fcf72e51-3d70-4ce1-83a6-01b496940a51
+89
+object id is b0a02827-b7b2-4a21-a540-82de60a4bf7c
+90
+object id is 632c064e-0e0c-4d62-b0e3-6e9952cbb352
+91
+object id is fe08d8bf-53d3-4f55-96bd-d481f38b18f0
+92
+object id is 6ae419f6-5457-4e9a-bd98-f1100514267d
+93
+object id is cf9986b7-65a6-4ae7-8ba2-b3c9c3c767c8
+94
+object id is d0ced062-eaeb-4d0b-82bd-fbc0adf31d0b
+95
+object id is 1d4364a4-ccbb-4600-a219-8ee526ff220a
+96
+object id is 671b50cf-9f81-4f2e-b281-03702903bc04
+97
+object id is 51d9fafc-1c87-4bee-a464-77eefe17b240
+98
+object id is 39486ef0-b3d7-4942-867e-ce2d24a90688
+99
+object id is 2ef3b61a-0d21-4e7e-94ee-98742af53a37
+100
+object id is caf0e6e0-f596-4334-b847-c600d01aa416
+101
+object id is ecfe95ef-f22e-41a1-9db3-b8597e8cab85
+102
+object id is 1c3f653d-54a2-4644-974f-e03ebd9c4f76
+dc.kvs_client <anna.client.AnnaTcpClient object at 0x7f6162b6d780> ||
+&$ {'solution_key_1598399958.93872520.36923588198332236': <anna.lattices.TopKPriorityLattice object at 0x7f614c27a6d8>} &$
+heyyyy  dc.kvs_client.get(solution_key)[solution_key] is not None
+length of lattice payload =  <class 'sortedcontainers.sorteddict.SortedDict'> 5 -=-
+0.1956493854522705, 29.7845243243918
+current topK: [29.7845243243918, 31.685789515998103, 42.05148597662469, 42.79472072190929, 44.19047083819832]
+getting results
+printing waypoints
+2971340109 276 29.7845243243918 11258
+4.0
+[(0.10000000149011612, 1.5707963705062866, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0), (0.3312615714461049, 1.5886073811245764, 0.8634143916300139, -0.5228491506856425, 1.4551948551043115, 1.6464524164364036, -0.4670617682207483, -2.367507115975558), (0.22604463420815937, 1.5609918429564211, 0.9195803542163645, -0.5002270285991361, -1.1084982016743974, 0.8387241678709003, -0.6311928466521126, -3.6559686987709625), (0.16785890988100235, 1.2724338011751894, -0.38921939615176127, 2.2131275525769625, -1.9525342361702422, -1.4034222689486915, -0.7525912283140308, -6.5553771019820894)]
+alive
+T50
+[[ [<cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a5f8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a668>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a6d8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a5c0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a550>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a710>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a748>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a780>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a7b8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a7f0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a828>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a860>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a898>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a8d0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a908>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a940>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a978>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a9b0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27a9e8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aa20>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aa58>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aa90>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aac8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ab00>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ab38>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ab70>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aba8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27abe0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ac18>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ac50>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ac88>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27acc0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27acf8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ad30>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ad68>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ada0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27add8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ae10>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ae48>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27ae80>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aeb8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27aef0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27af28>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27af60>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27af98>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c27afd0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284550>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2844a8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2846a0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2845f8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2844e0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284518>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284668>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2845c0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284da0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2847b8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2846d8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284710>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2849e8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284828>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2848d0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284898>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284d68>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2847f0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284978>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284ac8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284c50>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2849b0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284908>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284940>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284d30>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284a90>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284be0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284ba8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284a20>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284a58>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284b00>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284cf8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284b70>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284c88>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284cc0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284c18>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284748>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284b38>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2840f0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2840b8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284080>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284048>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2842e8>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284198>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284160>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284128>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284208>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2841d0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284358>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c2842b0>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284278>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284240>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284390>, <cloudburst.shared.future.CloudburstFuture object at 0x7f614c284320>, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None] ]]
+1
+object id is d86a5c8f-8c6e-4627-a576-4daca6143e5c
+2
+object id is 2a09b0e1-9e38-4498-9d7d-f709716f885b
+3
+object id is 4ace0d4b-9ce0-4c88-9843-0bf3cb1b0242
+4
+object id is 8351390d-f456-4894-8df6-48da23c8297e
+5
+object id is d2d80b27-9343-4428-bd2e-52e22379f0da
+6
+object id is 6810b9a2-d1b5-4ff1-bbf6-47a3b2f40ac1
+7
+object id is 930ba885-96d7-425e-99d8-d5a6639c96d1
+8
+object id is 37cebbf0-8884-48d5-8315-e97c9d4be4dc
+9
+object id is 64f4d761-7a1e-41ca-8af4-e345d1f48237
+10
+object id is e464fb92-f25a-4b46-ab0f-94e22a6deec9
+11
+object id is 78686dbe-eccc-4d79-b70d-6a919e546e2f
+12
+object id is 03e68af2-cd92-44f8-8347-58640dace4b0
+13
+object id is b1eeb701-ec88-4de2-b8da-2d6c5a72c623
+14
+object id is 650dadcb-6382-4bbf-9baf-0892d229f50f
+15
+object id is 9e8bb18c-63ad-4b28-8b01-a2b682fae667
+16
+object id is 86890ed5-c417-4542-b8e1-d2fc42ddcbfc
+17
+object id is 6d0ac0e4-43b0-41ee-bbcf-a30edac6015a
+18
+object id is 12b3c580-7e62-4ada-98ff-c6b7c9ddec48
+19
+object id is 201abc7f-0377-43cf-9de4-6580609ee308
+20
+object id is f7de9f13-f483-4d9f-81e9-12df3e7484e3
+21
+object id is 1063746d-b0d5-4cf4-877e-08cccf75812c
+22
+object id is 16a8bdd4-c119-481e-b08e-3dff1f2bf410
+23
+object id is 573505da-c7a6-46c4-819a-6487bb9e336e
+24
+object id is 97a31cfe-17a4-4bec-a722-ea6315cbb175
+25
+object id is 4d8e3206-9861-4ae8-a404-fd1c51f887a4
+26
+object id is b98c0d9f-92cf-4889-8498-a2259ac583aa
+27
+object id is fd57bc77-d25f-46a3-bef3-98d24072eac3
+28
+object id is 54e00f1d-5d6f-493a-a29a-b8d8f44bb926
+29
+object id is e88e9e57-2fca-4d19-bc30-43e44d50dda8
+30
+object id is 3179a058-7e52-4dd6-bdec-a0f7d4931717
+31
+object id is b8e6489f-3b6f-4d7d-b7e8-62896418956d
+32
+object id is ec485f97-ba07-479f-afc2-bae5df7b85a5
+33
+object id is 4c509e24-c2a1-40cc-89ea-1c51fdcfc143
+34
+object id is 79a7d66b-2b8c-4a92-a799-8bfeecb000b0
+35
+object id is e5d94e9d-5e20-4e48-bf39-331357fdd288
+36
+object id is 2ebd2f60-9d8c-47f9-9c71-572e8fe860f2
+37
+object id is 80145eb6-2e03-4b88-a01d-79904631e918
+38
+object id is a775b929-3905-4b14-a8bb-f8d98bc22ebf
+39
+object id is 44ecc65b-9aae-4f09-8132-0d50bb5d2d8f
+40
+object id is 31f5ee96-8d2a-4268-be6e-5eeff6796cae
+41
+object id is 3d77e3f7-5e11-410a-8e19-c0620d20e272
+42
+object id is a27a8914-365c-4c6b-b11b-65bbf9e86abd
+43
+object id is ea7ac3fe-ad35-47e0-aa4d-1a5bbd237553
+44
+object id is 92cd900c-8fc1-47b3-ad1e-ca7b30985c3e
+45
+object id is f4ce4192-10d0-46ca-bfbf-9918967e2bbd
+46
+object id is d29049c4-ba32-4299-923d-99c9a2cdb2ce
+47
+object id is 21b6a9ab-16cb-4114-b1b9-2021f2b40c2f
+48
+object id is 2caee987-1b90-4840-9579-763d18607c9b
+49
+object id is e7ee3aa2-1859-4005-9d4d-04ae44c90c33
+50
+object id is 37aecff9-c9eb-4ca9-9f0e-a6e09fc81ff6
+51
+object id is c3036ed2-0553-4502-9b89-9cebbe0b3dd2
+52
+object id is 70cc762e-778d-47fc-8d27-745c2955ea0a
+53
+object id is 03aa6488-ee89-4fbe-94ac-0f22df58a923
+54
+object id is ae94b255-7379-4fed-bc93-279a0053525a
+55
+object id is c478d276-60e1-4ad0-9086-f5f197e104f4
+56
+object id is ca9d9a98-47c8-4ddc-9fb3-090a351c640d
+57
+object id is f153c091-8ed6-4a5d-bbc4-7ffa5f6a7d63
+58
+object id is ac927ca3-7c99-4644-91ed-b70b5e0c41ec
+59
+object id is 2721830c-5ef5-489c-bfb3-22ccb8c9adac
+60
+object id is e96738ef-3b63-4dc7-bed9-4445e5f0aa07
+61
+object id is 74721c0a-e88c-4ade-a45c-59157e75ecab
+62
+object id is 911afa67-b716-4e42-a666-d8bd383c9819
+63
+object id is a6fb670f-ac73-422d-988a-bc05cb0e73f2
+64
+object id is a0f5263a-c5da-4528-9c2c-9c5dffc19d46
+65
+object id is f5fcefec-1cbe-4a90-b3bc-524bfff7f3b9
+66
+object id is 6886c78f-37c4-4e48-b90c-767971b23eff
+67
+object id is 0ece162c-aea8-4dd0-9c8d-f483b5cc6485
+68
+object id is 9a016a16-8a1d-4261-9b94-8b9ab26624af
+69
+object id is f3237944-f24a-41e1-a590-f5079b02d3b5
+70
+object id is ae4898e7-d841-4a47-8178-fde757446f93
+71
+object id is 75d984d2-c12f-4b11-89c8-36404b27427b
+72
+object id is 60395b6a-a003-40d1-9549-f9d491fa663d
+73
+object id is 9ebb05d6-1375-4665-9ff4-be1effa084df
+74
+object id is 36593742-9ef7-47a8-aabe-c33f48bd06af
+75
+object id is c1da4802-61fb-46f2-9c2f-3439956c5be9
+76
+object id is 9b22a867-3ee6-44ae-b8c0-4628185992de
+77
+object id is 5acbb988-d4cd-4e49-b02b-e8a8ba5197aa
+78
+object id is ac0cb501-0e52-4528-bc7e-164a707c3275
+79
+object id is 06df25b5-37c6-4ca5-b5da-80473afacbb4
+80
+object id is 8ba038f2-1567-4abc-86b3-740c6e3ae2a0
+81
+object id is c0b64937-f2ee-45a8-9ec5-6cff6e8ce390
+82
+object id is b715fc03-f465-4c24-b50b-27598d2093b6
+83
+object id is bd52f1d4-cc72-41c8-a16a-4ffc2e875afd
+84
+object id is 7c0f2cd4-2beb-46b6-b3f4-f246ff3cbdd1
+85
+object id is a52f9896-bd6d-4f8f-b594-1335036a897b
+86
+object id is 6f20546a-7dd2-40b7-bbaa-78c8a5d02a6e
+87
+object id is 3e16f4f0-54f1-461b-96e9-fa4e5cda09a1
+88
+object id is 6d664c1b-5dbe-482d-8a4a-755ccf03c066
+89
+object id is d0299569-e972-4a10-bc23-e16e6414dbdf
+90
+object id is 482778de-c7c2-44b0-9ab0-275a8360471d
+91
+object id is 1c94acd9-ec0a-48e0-93f7-28a6ca972bf1
+92
+object id is 9a2f19f0-446a-4d8c-8f95-35b04c1c59fe
+93
+object id is a75eeda8-7ce6-4e22-bb61-2d5d3b79d19a
+94
+object id is cbb02ca5-302b-4f7f-95a1-8a503f1a7d89
+95
+object id is a98551bb-1314-49cd-8479-b0f5def1873e
+96
+object id is eb37d916-7a58-4018-ae4e-0b3d1785ac6e
+97
+object id is fa7a2b1f-d563-44a0-b169-710e482fc783
+98
+object id is 443ef940-ad06-412b-8915-53a0d3f55024
+99
+object id is 84652fe6-706b-47d5-a5c8-c48fbe5d19e7
+100
+object id is 62d568a5-3f02-47eb-a6e4-d0b0287a97e2
+dc.kvs_client <anna.client.AnnaTcpClient object at 0x7f6162b6d780> ||
+&$ {'solution_key_1598400070.92722490.0563432665973308': <anna.lattices.TopKPriorityLattice object at 0x7f614c27a668>} &$
+heyyyy  dc.kvs_client.get(solution_key)[solution_key] is not None
+length of lattice payload =  <class 'sortedcontainers.sorteddict.SortedDict'> 5 -=-
+0.19576215744018555, 29.514011899365023
+current topK: [29.514011899365023, 29.8788432629815, 34.79300034828164, 40.51626710390974, 119.62999214007084]
+getting results
+printing waypoints
+2971340109 276 29.514011899365023 45806
+4.0
+[(0.10000000149011612, 1.5707963705062866, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0, 1.5707963705062866, 0.0), (0.23534613102420157, 1.5947201945738172, -0.08599706884366043, -0.08640646158000109, 1.3471823783521728, -1.2048680098372362, 0.8954834303386452, -3.3716663918925445), (0.16721912931060418, 1.5519884244573805, 0.6734974162873699, -0.6374923801310768, -0.9325572355677361, -0.5116890226942292, -1.58518473955761, -6.734376905223332), (0.15494387034906196, 1.3055477418718149, -0.1693073583141745, 1.9543771902106346, -1.6705973508841239, -0.5223894357045685, -0.8481208532469205, -7.313409413801229)]
