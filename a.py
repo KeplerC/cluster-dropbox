@@ -3,10 +3,10 @@ import time
 
 
 
-num_proc = 5
+num_proc = 8
 num_thread = 8
-time_length = 30000
-trials = 10
+time_length = 120
+trials = 20
 run = 0
 
 os.environ["OMP_NUM_THREADS"] = str(num_thread)
