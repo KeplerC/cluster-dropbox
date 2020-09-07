@@ -1,0 +1,312 @@
+05:56:46.363 INFO  (/mplambda/src/mpl_lambda_pseudo.cpp:5) Hello
+05:56:46.363 INFO  (/mplambda/src/mpl_lambda_pseudo.cpp:5) Hello
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:318) using planner: cforest
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:318) using planner: cforest
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:312) using precision: double
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:312) using precision: double
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:273) running scenario: fetch
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:273) running scenario: fetch
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:292) Env frame: 
+	-4.37114e-08 1            0            0.38        
+	-1           -4.37114e-08 -0           -0.9        
+	-0           0            1            0           
+	0            0            0            1           
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:292) Env frame: 
+	-4.37114e-08 1            0            0.38        
+	-1           -4.37114e-08 -0           -0.9        
+	-0           0            1            0           
+	0            0            0            1           
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:293) Goal: 
+	1     0     0     -1.07
+	0     1     0     0.16 
+	0     0     1     0.88 
+	0     0     0     1    
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:293) Goal: 
+	1     0     0     -1.07
+	0     1     0     0.16 
+	0     0     1     0.88 
+	0     0     0     1    
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:295) Goal in robot's frame: 
+	-4.37114e-08 1            0            0.54        
+	-1           -4.37114e-08 -0           0.17        
+	0            0            1            0.88        
+	0            0            0            1           
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:295) Goal in robot's frame: 
+	-4.37114e-08 1            0            0.54        
+	-1           -4.37114e-08 -0           0.17        
+	0            0            1            0.88        
+	0            0            0            1           
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:94) Start function runplanner
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:94) Start function runplanner
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:110) before kvsClient
+thread id is 7
+anna address is 127.0.0.1
+local ip is 127.0.0.1
+execution id is solution_key_1595284680.778267
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:110) before kvsClient
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:112) After kvsclient
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:112) After kvsclient
+05:56:46.363 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:115) no coordinator set
+05:56:46.363 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:115) no coordinator set
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:118) setting up planner
+05:56:46.363 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:118) setting up planner
+05:56:46.389 INFO  (/mplambda/include/mpl/demo/load_mesh.hpp:59) name='$MergedNode_0', M=[1, 0, 0, 0,  0, 1, 0, 0,  0, 0, 1, 0,  0, 0, 0, 1]
+05:56:46.389 INFO  (/mplambda/include/mpl/demo/load_mesh.hpp:59) name='$MergedNode_0', M=[1, 0, 0, 0,  0, 1, 0, 0,  0, 0, 1, 0,  0, 0, 0, 1]
+05:56:46.390 INFO  (/mplambda/include/mpl/demo/load_mesh.hpp:286) Loaded mesh "/mplambda/resources/AUTOLAB.dae" AABB={c=[0.215000033378601, -1.4600000679493, 1.19999999925494]^T, r=4.16991, min=[-3.09999990463257, -3.63000011444092, -0.100000001490116]^T, max=[3.52999997138977, 0.709999978542328, 2.5]^T}
+05:56:46.390 INFO  (/mplambda/include/mpl/demo/load_mesh.hpp:286) Loaded mesh "/mplambda/resources/AUTOLAB.dae" AABB={c=[0.215000033378601, -1.4600000679493, 1.19999999925494]^T, r=4.16991, min=[-3.09999990463257, -3.63000011444092, -0.100000001490116]^T, max=[3.52999997138977, 0.709999978542328, 2.5]^T}
+05:56:46.390 INFO  (/mplambda/include/mpl/demo/fetch_scenario.hpp:62) goal tolerance: eps=0.01, L=[1, 1, 1, 1, 1, 0.00318309870211231]^T
+05:56:46.390 INFO  (/mplambda/include/mpl/demo/fetch_scenario.hpp:62) goal tolerance: eps=0.01, L=[1, 1, 1, 1, 1, 0.00318309870211231]^T
+05:56:46.391 TRACE (/mplambda/include/mpl/pcforest.hpp:471) thread goal bias set to 0.08
+05:56:46.391 TRACE (/mplambda/include/mpl/pcforest.hpp:471) thread goal bias set to 0.08
+05:56:46.391 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:121) Adding start state: [0.100000001490116, 1.57079637050629, 1.57079637050629, 0, 1.57079637050629, 0, 1.57079637050629, 0]^T
+05:56:46.391 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:121) Adding start state: [0.100000001490116, 1.57079637050629, 1.57079637050629, 0, 1.57079637050629, 0, 1.57079637050629, 0]^T
+05:56:46.391 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:124) Starting solve()
+05:56:46.391 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:124) Starting solve()
+05:56:46.391 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:135) judge whether found a solution
+05:56:46.391 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:135) judge whether found a solution
+05:56:46.391 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:138) found a solution
+05:56:46.391 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:138) found a solution
+05:56:46.391 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:141) Sync solution keysolution_key_1595284680.778267
+05:56:46.391 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:141) Sync solution keysolution_key_1595284680.778267
+05:56:46.391 INFO  (/mplambda/include/mpl/pcforest.hpp:225) solving on 8 threads
+05:56:46.391 INFO  (/mplambda/include/mpl/pcforest.hpp:225) solving on 8 threads
+05:56:51.670 INFO  (/mplambda/include/mpl/pcforest.hpp:125) found initial solution with cost 76.7938
+05:56:51.670 INFO  (/mplambda/include/mpl/pcforest.hpp:125) found initial solution with cost 76.7938
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:61) putting path with cost 76.7938
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:61) putting path with cost 76.7938
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.216900158349956, 1.40075502386657, 0.115824652240938, 1.95095198152289, -2.07437160991629, 10.3660724041059, -0.43845837714873, 7.16256389635819]^T
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.216900158349956, 1.40075502386657, 0.115824652240938, 1.95095198152289, -2.07437160991629, 10.3660724041059, -0.43845837714873, 7.16256389635819]^T
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.0659454264907463, 0.941476259129249, 0.0641522961808711, -1.62850422117545, -1.48258350892069, 11.9423858893799, 0.907569707986149, -0.620821752828528]^T
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.0659454264907463, 0.941476259129249, 0.0641522961808711, -1.62850422117545, -1.48258350892069, 11.9423858893799, 0.907569707986149, -0.620821752828528]^T
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.100673982188258, 1.05313714033296, -0.748352714476473, -1.5163930921558, -0.886225085665018, 7.43641805779245, 0.855272190121025, -1.06052051817412]^T
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.100673982188258, 1.05313714033296, -0.748352714476473, -1.5163930921558, -0.886225085665018, 7.43641805779245, 0.855272190121025, -1.06052051817412]^T
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.361709956416681, -0.162424928690587, -0.858576391521116, -1.83623480827312, 0.613500431748061, 1.47910738095844, 1.95452174061041, -0.349757463506387]^T
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.361709956416681, -0.162424928690587, -0.858576391521116, -1.83623480827312, 0.613500431748061, 1.47910738095844, 1.95452174061041, -0.349757463506387]^T
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.161059813630423, -1.43293706823569, 1.07218564981383, -2.83294746266925, 1.84172828871231, 0.403707783952649, 1.0971531242973, -0.206424635536347]^T
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.161059813630423, -1.43293706823569, 1.07218564981383, -2.83294746266925, 1.84172828871231, 0.403707783952649, 1.0971531242973, -0.206424635536347]^T
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.100000001490116, 1.57079637050629, 1.57079637050629, 0, 1.57079637050629, 0, 1.57079637050629, 0]^T
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.100000001490116, 1.57079637050629, 1.57079637050629, 0, 1.57079637050629, 0, 1.57079637050629, 0]^T
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:227) solution length = 76.7938
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:227) solution length = 76.7938
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:228) Get solution with cost 76.7938,5.279393908 s
+05:56:51.670 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:228) Get solution with cost 76.7938,5.279393908 s
+05:56:57.143 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 0
+05:56:57.143 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 0
+05:57:07.982 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 0
+05:57:07.982 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 0
+05:57:18.507 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 0
+05:57:18.507 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 0
+05:57:29.862 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 0
+05:57:29.862 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 0
+05:57:41.435 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 0
+05:57:41.435 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 0
+05:57:41.792 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 6
+05:57:41.792 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 6
+48.7297,05:57:52.870 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution goal reverted, new cost 48.7297
+05:57:52.870 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution goal reverted, new cost 48.7297
+05:57:52.871 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost48.7297
+05:57:52.871 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost48.7297
+54.0271,05:57:57.136 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost54.0271
+05:57:57.136 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost54.0271
+73.2607,05:58:00.913 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 43.1488
+05:58:00.913 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 43.1488
+05:58:08.435 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost73.2607
+05:58:08.435 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost73.2607
+75.8593,05:58:21.700 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.8593
+05:58:21.700 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.8593
+75.9825,05:58:23.605 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.9825
+05:58:23.605 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.9825
+127.891,05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost127.891
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost127.891
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:61) putting path with cost 43.1488
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:61) putting path with cost 43.1488
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.272167726281478, 1.01476519554697, -0.312500215895473, 12.1121125415003, 2.02523455316257, -1.85304068260914, 1.18582427317223, -2.92923248513419]^T
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.272167726281478, 1.01476519554697, -0.312500215895473, 12.1121125415003, 2.02523455316257, -1.85304068260914, 1.18582427317223, -2.92923248513419]^T
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.197451981768167, 1.45313266873135, -0.417449472373742, 7.67295097610265, 0.49611412501384, -1.80925958689122, 0.22525425027853, -5.28205070235235]^T
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.197451981768167, 1.45313266873135, -0.417449472373742, 7.67295097610265, 0.49611412501384, -1.80925958689122, 0.22525425027853, -5.28205070235235]^T
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.287866575851291, 1.56103886227838, 0.14089240933169, -0.194344470159031, 2.01175940065945, -2.55794060349112, 0.714376195777197, -4.87416744682537]^T
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.287866575851291, 1.56103886227838, 0.14089240933169, -0.194344470159031, 2.01175940065945, -2.55794060349112, 0.714376195777197, -4.87416744682537]^T
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.349142759919744, 1.57367411543009, 0.948972869721643, -0.338749759979379, 1.11400350789891, -2.77112233739557, 2.07377447741857, -4.89773034003426]^T
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.349142759919744, 1.57367411543009, 0.948972869721643, -0.338749759979379, 1.11400350789891, -2.77112233739557, 2.07377447741857, -4.89773034003426]^T
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.100000001490116, 1.57079637050629, 1.57079637050629, 0, 1.57079637050629, 0, 1.57079637050629, 0]^T
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:70)   [0.100000001490116, 1.57079637050629, 1.57079637050629, 0, 1.57079637050629, 0, 1.57079637050629, 0]^T
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:227) solution length = 43.1488
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:227) solution length = 43.1488
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:228) Get solution with cost 43.1488,109.770755193 s
+05:58:36.162 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:228) Get solution with cost 43.1488,109.770755193 s
+05:58:36.484 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 18
+05:58:36.484 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 18
+41.0673,05:58:42.178 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 41.0673
+05:58:42.178 INFO  (/mplambda/include/mpl/pcforest.hpp:125) solution improved, new cost 41.0673
+05:58:42.473 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:42.473 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:42.473 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:42.473 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:42.473 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:42.473 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:42.473 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:42.473 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:42.474 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:42.474 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:42.474 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:42.474 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:42.474 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:42.474 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+45.1527,05:58:42.474 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost45.1527
+05:58:42.474 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost45.1527
+46.2913,05:58:43.230 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost46.2913
+05:58:43.230 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost46.2913
+47.5603,05:58:43.230 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost47.5603
+05:58:43.230 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost47.5603
+48.7297,05:58:43.230 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost48.7297
+05:58:43.230 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost48.7297
+49.2023,05:58:43.544 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.2023
+05:58:43.544 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.2023
+49.8942,05:58:44.983 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.8942
+05:58:44.983 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.8942
+54.0271,05:58:44.983 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost54.0271
+05:58:44.983 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost54.0271
+73.2607,05:58:44.983 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost73.2607
+05:58:44.983 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost73.2607
+75.8593,05:58:44.983 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.8593
+05:58:44.983 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.8593
+75.9825,05:58:44.983 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.9825
+05:58:44.983 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.9825
+127.891,05:58:44.983 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost127.891
+05:58:44.983 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost127.891
+05:58:45.251 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 19
+05:58:45.251 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 19
+41.0673,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+43.1488,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost43.1488
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost43.1488
+45.1527,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost45.1527
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost45.1527
+46.2913,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost46.2913
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost46.2913
+47.5603,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost47.5603
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost47.5603
+48.7297,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost48.7297
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost48.7297
+49.2023,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.2023
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.2023
+49.8942,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.8942
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.8942
+54.0271,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost54.0271
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost54.0271
+73.2607,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost73.2607
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost73.2607
+75.8593,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.8593
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.8593
+75.9825,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.9825
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.9825
+127.891,05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost127.891
+05:58:45.251 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost127.891
+05:58:46.033 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 19
+05:58:46.033 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 19
+41.0673,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+43.1488,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost43.1488
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost43.1488
+45.1527,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost45.1527
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost45.1527
+46.2913,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost46.2913
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost46.2913
+47.5603,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost47.5603
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost47.5603
+48.7297,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost48.7297
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost48.7297
+49.2023,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.2023
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.2023
+49.8942,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.8942
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.8942
+54.0271,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost54.0271
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost54.0271
+73.2607,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost73.2607
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost73.2607
+75.8593,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.8593
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.8593
+75.9825,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.9825
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.9825
+127.891,05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost127.891
+05:58:46.033 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost127.891
+05:58:46.262 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 19
+05:58:46.262 WARN  (/mplambda/src/mpl/demo/lambda_common.cpp:168) TopK length = 19
+41.0673,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+41.0673,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost41.0673
+43.1488,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost43.1488
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost43.1488
+45.1527,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost45.1527
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost45.1527
+46.2913,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost46.2913
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost46.2913
+47.5603,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost47.5603
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost47.5603
+48.7297,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost48.7297
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost48.7297
+49.2023,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.2023
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.2023
+49.8942,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.8942
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost49.8942
+54.0271,05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost54.0271
+05:58:46.262 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost54.0271
+73.2607,05:58:46.263 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost73.2607
+05:58:46.263 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost73.2607
+75.8593,05:58:46.263 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.8593
+05:58:46.263 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.8593
+75.9825,05:58:46.263 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.9825
+05:58:46.263 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost75.9825
+127.891,05:58:46.263 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost127.891
+05:58:46.263 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:188) added path with cost127.891
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:255) solution found after 120.867401244 s
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:255) solution found after 120.867401244 s
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:256) graph size = 1336
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:256) graph size = 1336
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:257) samples (goal-biased, rejected) = 14505 (36, 0)
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:257) samples (goal-biased, rejected) = 14505 (36, 0)
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:265)   [0.272167726281478, 1.01476519554697, -0.312500215895473, 12.1121125415003, 2.02523455316257, -1.85304068260914, 1.18582427317223, -2.92923248513419]^T
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:265)   [0.272167726281478, 1.01476519554697, -0.312500215895473, 12.1121125415003, 2.02523455316257, -1.85304068260914, 1.18582427317223, -2.92923248513419]^T
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:265)   [0.36563084996809, 1.03008097575516, -0.658789817563286, 7.42851932592432, 0.286076565046402, -2.91387800142021, 1.04371617618809, -3.52931142751746]^T
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:265)   [0.36563084996809, 1.03008097575516, -0.658789817563286, 7.42851932592432, 0.286076565046402, -2.91387800142021, 1.04371617618809, -3.52931142751746]^T
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:265)   [0.328373237687669, 1.38678149489587, -0.119525594717681, 2.29845952567122, -0.29113086067404, -3.00289670570505, 1.21873155799936, -4.2588669942091]^T
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:265)   [0.328373237687669, 1.38678149489587, -0.119525594717681, 2.29845952567122, -0.29113086067404, -3.00289670570505, 1.21873155799936, -4.2588669942091]^T
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:265)   [0.349142759919744, 1.57367411543009, 0.948972869721643, -0.338749759979379, 1.11400350789891, -2.77112233739557, 2.07377447741857, -4.89773034003426]^T
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:265)   [0.349142759919744, 1.57367411543009, 0.948972869721643, -0.338749759979379, 1.11400350789891, -2.77112233739557, 2.07377447741857, -4.89773034003426]^T
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:265)   [0.100000001490116, 1.57079637050629, 1.57079637050629, 0, 1.57079637050629, 0, 1.57079637050629, 0]^T
+05:58:47.258 INFO  (/mplambda/src/mpl/demo/lambda_common.cpp:265)   [0.100000001490116, 1.57079637050629, 1.57079637050629, 0, 1.57079637050629, 0, 1.57079637050629, 0]^T
