@@ -7,7 +7,7 @@ from operator import itemgetter
 
 
 for log in os.listdir("."):
-    if not log.startswith("fetch"):
+    if not log.startswith("cubicle"):
         continue
     with open(log) as f:
         print(log)
@@ -26,9 +26,9 @@ for log in os.listdir("."):
                 if not i:
                     continue
                 splitted = i.split(", ")
-                costs.append(float(splitted[1]))
-                times.append(float(splitted[0]))
-                s+=(i.strip() + "\n")
+                c = str(float(splitted[1]) % 10000)
+                t = str(float(splitted[0]))
+                s+=(t + ", " + c+ "\n")
         print(s)
         with open("exp_" + log, "w") as f:
             f.write(s[:-5])
