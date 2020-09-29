@@ -7,7 +7,7 @@ from operator import itemgetter
 
 
 for log in os.listdir("."):
-    if not log.startswith("cubicle"):
+    if not log.startswith("apartment"):
         continue
     with open(log) as f:
         print(log)
